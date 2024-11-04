@@ -5,6 +5,7 @@ import hero_banner from "../../assets/hero_banner.jpg";
 import hero_title1 from "../../assets/hero_title1.png";
 import play_icon from "../../assets/play_icon.png";
 import info_icon from "../../assets/info_icon.png";
+import TitleCards from "../../components/TitleCards/TitleCards";
 const Home = () => {
   return (
     <div className="home">
@@ -28,10 +29,11 @@ const Home = () => {
               More Info
             </button>
           </div>
+          <TitleCards />
         </div>
       </div>
     </div>
   );
 };
-
+// 51:45
 export default Home;
